@@ -29,12 +29,12 @@
 
 ## iOS Build
 
-    1. Build should be run on this iOS branch: https://github.com/SymplastLLC/IOS/tree/release/2.73.1/uat
+    1. Build should be run on this iOS branch: https://github.com/xxx/IOS/tree/release/2.73.1/uat
 
 ## AppCenter
 
     1. mvn -DskipTests -P prepare-for-upload package
-    2. appcenter test run appium --app "SymplastDev/iOS-Practice-Release" --devices "d3b81459" --app-path target/upload/test-classes/apps/ios/Symplast_Dev.ipa --test-series "master" --locale "en_US" --build-dir target/upload
+    2. appcenter test run appium --app "xxx/iOS-Practice-Release" --devices "d3b81459" --app-path target/upload/test-classes/apps/ios/xxx.ipa --test-series "master" --locale "en_US" --build-dir target/upload
 
 ## WebdriverAgent Setup
     1. https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md
