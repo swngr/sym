@@ -1,0 +1,14 @@
+{
+  "purposeId": 1886,
+  "typeId": 16,
+  "remindersDisabled": true,
+  "consents": [],
+  "isVideoVisit": false,
+  "endDate": "{{endDate}}",
+  "paymentTypeId": 2,
+  "locationId": "{{locationId}}",
+  "statusId": "{{statusId}}",
+  "providers": [1730],
+  "startDate": "{{startDate}}",
+  "patientId": "{{patientId}}"
+}

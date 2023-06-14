@@ -1,0 +1,35 @@
+{
+  "practice": "UAT1",
+  "username": "qa_automation",
+  "password": "Abc!1234",
+  "practice.username": "Auto Tester",
+
+  "username2": "auto_tester",
+  "password2": "123QWEasd!",
+  "auto.tester": "AutoTest User",
+
+  "patient.status": "PATIENT",
+  "patient.firstname": "John",
+  "patient.lastname": "Connor",
+  "patient.id.john.connor": "5346",
+  "patient.firstname.tony": "Tony",
+  "patient.lastname.stark": "Stark",
+  "patient.id.tony.stark": "5089",
+  "patient.dob.day": 28,
+  "patient.dob.month": 2,
+  "patient.dob.year": 1985,
+  "patient.gender": "MALE",
+  "patient.mobile.phone": "8474280741",
+  "patient.referral.source": "Auto Test Referral",
+
+  "app.id": "com.symplast.symplast",
+
+  "conversation.name": "(With John Connor) (with John Connor) J.",
+  "conversation.send.message": "(About John Connor) With AutoTest User, Auto Tester and Quality Assurance Automation Webapp",
+
+  "api.username": "3001.auto_tester",
+  "api.password": "123QWEasd!",
+  "api.client.id": "3001.mobile.client",
+
+  "location.id": 125
+}

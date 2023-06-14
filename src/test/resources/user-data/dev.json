@@ -1,0 +1,33 @@
+{
+  "practice": "DEV1 MedSpa",
+  "username": "qa_automation",
+  "password": "Abc!1234",
+  "practice.username": "Auto Tester",
+
+  "username2": "auto_tester",
+  "password2": "123QWEasd!",
+  "auto.tester": "Auto tester",
+
+  "patient.status": "PATIENT",
+  "patient.firstname": "John",
+  "patient.lastname": "Connor",
+  "patient.id.john.connor": "1002156",
+  "patient.dob.day": 28,
+  "patient.dob.month": 2,
+  "patient.dob.year": 1985,
+  "patient.gender": "MALE",
+  "patient.mobile.phone": "8474280741",
+  "patient.referral.source": "Auto Test Referral 2",
+
+  "app.id": "com.symplast.practice.dev",
+
+  "conversation.name": "(With Jhon Connor) Connor",
+  "conversation.send.message": "(About John Connor) With Quality Assurance Automation Webapp and Auto Tester",
+
+  "api.username": "1007.auto_tester",
+  "api.password": "123QWEasd!",
+  "api.client.id": "1007.mobile.client",
+
+  "location.id": 125
+
+}

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2204ebb7-14c7-467f-b6d7-5a94f4dc5fdb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="change_locations" />
+                    <option name="lastUsedInstant" value="1685459797" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="appointment-options" />
+                    <option name="lastUsedInstant" value="1685459796" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/utils/Constants.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/components/WelcomeCarrouselComponent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/components/HamburgerMenuComponent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/runner/RegressionTestSuite.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/configuration-profiles/ios.ipa.local.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/testcases/LoginTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/opt/apache-maven-3.8.7" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2Kxchvpaqf75RYIOkJB315K5VER" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/apps/ios" />
+      <recent name="$PROJECT_DIR$/src/test/resources/configuration-profiles" />
+      <recent name="D:\appium-junit\src\test\resources\configuration-profiles" />
+      <recent name="D:\appium-junit\src\test\resources\apps\ios" />
+      <recent name="D:\appium-junit\src\test\resources\apps\android" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/apps/ios" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.fw.utils" />
+      <recent name="org.fw.pages" />
+      <recent name="org.fw.testcases" />
+      <recent name="org.fw.enums" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Local_iOS_LoginTest">
+    <configuration name="BrowserStack_iOS_LoginTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="appium-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fw.testcases.BrowserStackExampleTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="PACKAGE_NAME" value="org.fw.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.fw.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="exampleTestCase" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -DpropertiesFiles=ios.browserstack.properties" />
+      <envs>
+        <env name="APP_CENTER_TEST" value="2" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Local_iOS_LoginTest" type="JUnit" factoryName="JUnit">
+      <module name="appium-junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.fw.testcases.BrowserStackExampleTest" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="PACKAGE_NAME" value="org.fw.testcases" />
+      <option name="MAIN_CLASS_NAME" value="org.fw.testcases.LoginTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -DpropertiesFiles=ios.local.properties" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Local_iOS_LoginTest" />
+      <item itemvalue="JUnit.BrowserStack_iOS_LoginTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BrowserStack_iOS_LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2204ebb7-14c7-467f-b6d7-5a94f4dc5fdb" name="Changes" comment="" />
+      <created>1674919796760</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674919796760</updated>
+      <workItem from="1675420505282" duration="662000" />
+      <workItem from="1675421181187" duration="25081000" />
+      <workItem from="1675692293493" duration="3977000" />
+      <workItem from="1675711532690" duration="1274000" />
+      <workItem from="1675802853348" duration="8971000" />
+      <workItem from="1675884733161" duration="8488000" />
+      <workItem from="1675955838344" duration="11438000" />
+    </task>
+    <task id="LOCAL-00001" summary="add app, update framework skeleton, add azure template for android">
+      <created>1674970903304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674970903304</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update some gitignore files from .idea">
+      <created>1675802831684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675802831684</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add app, update framework skeleton, add azure template for android" />
+    <MESSAGE value="Update some gitignore files from .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update some gitignore files from .idea" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/appium_java_ios$shay_iOS.ic" NAME="shay.iOS Coverage Results" MODIFIED="1684871756307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
