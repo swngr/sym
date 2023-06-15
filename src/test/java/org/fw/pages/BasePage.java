@@ -142,7 +142,7 @@ public class BasePage {
         MobileDriverManager.getMobileDriver().executeScript("mobile: pressButton", args);
     }
 
-    public void goBackToSymplastApp(){
+    public void goBackToSymApp(){
         MobileDriverManager.getMobileDriver().activateApp(UserDataUtils.getUserData(Constants.APP_ID));
     }
 

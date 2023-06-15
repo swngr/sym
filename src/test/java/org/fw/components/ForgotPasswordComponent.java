@@ -10,7 +10,7 @@ public class ForgotPasswordComponent extends BasePage {
     private WebElement cancelButton;
 
     @iOSXCUITFindBy(accessibility = "image")
-    private WebElement symplastIcon;
+    private WebElement symIcon;
 
     @iOSXCUITFindBy(accessibility = "username_1")
     private WebElement usernameInput;
@@ -20,7 +20,7 @@ public class ForgotPasswordComponent extends BasePage {
 
     public boolean isComponentDisplayed() {
         return (isDisplayed(cancelButton, "Unable to display \"Cancel\" button") &&
-                isDisplayed(symplastIcon, "Unable to display \"Symplast\" icon") &&
+                isDisplayed(symIcon, "Unable to display \"Symplast\" icon") &&
                 isDisplayed(usernameInput, "Unable to display \"User Name\" input") &&
                 isDisplayed(resetPasswordButton, "Unable to display \"Reset Password\" button"));
     }

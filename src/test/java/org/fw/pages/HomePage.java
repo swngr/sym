@@ -20,7 +20,7 @@ public class HomePage extends BasePage {
     private WebElement openHamburgerMenuButton;
 
     @iOSXCUITFindBy(accessibility = "image_logg_nav_bar")
-    private WebElement symplastLogoIcon;
+    private WebElement symLogoIcon;
 
     @iOSXCUITFindBy(accessibility = "button_dnd_nav_bar")
     private WebElement openDoNotDisturbButton;
@@ -64,7 +64,7 @@ public class HomePage extends BasePage {
     // Close Dismiss (Only available in virtual devices)
     public void closeDismissUpdateMessage(){
         click(dismissUpdateMessageView, "Unable to click the dismiss message Button");
-        goBackToSymplastApp();
+        goBackToSymApp();
     }
 
     public WelcomeCarrouselComponent getWelcomeCarrouselComp(){
@@ -143,8 +143,8 @@ public class HomePage extends BasePage {
         click(practiceFlowImageButton, "Unable to click the \"practiceFlowImageButton\" button");
     }
 
-    public boolean isSymplastLogoIconDisplayed() {
-        return isDisplayed(symplastLogoIcon, " \"Symplast logo icon\" is not displayed");
+    public boolean isSymLogoIconDisplayed() {
+        return isDisplayed(symLogoIcon, " \"Symplast logo icon\" is not displayed");
     }
 
     public SearchComponent getSearchComp() {

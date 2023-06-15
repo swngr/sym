@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 public class PracticeLoginPage extends BasePage {
 
     @iOSXCUITFindBy(accessibility = "image_0")
-    private WebElement symplastIcon;
+    private WebElement symIcon;
 
     @iOSXCUITFindBy(accessibility = "practice_name")
     private WebElement practiceInput;
@@ -41,8 +41,8 @@ public class PracticeLoginPage extends BasePage {
         }
     }
 
-    public boolean isSymplastIconDisplayed(){
-        return isDisplayed(symplastIcon, "Unable to display the \"Symplast\" icon");
+    public boolean isSymIconDisplayed(){
+        return isDisplayed(symIcon, "Unable to display the \"Symplast\" icon");
     }
 
     public boolean isDisplayed(){

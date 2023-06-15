@@ -8,7 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2204ebb7-14c7-467f-b6d7-5a94f4dc5fdb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/components/ForgotPasswordComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/components/ForgotPasswordComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/pages/PracticeLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/pages/PracticeLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/testcases/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/testcases/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/testcases/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/testcases/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/testcases/LoginToAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/testcases/LoginToAppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/fw/testcases/SecureMessagingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/fw/testcases/SecureMessagingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +59,11 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/utils/Constants.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/components/WelcomeCarrouselComponent.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/components/HamburgerMenuComponent.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/runner/RegressionTestSuite.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/configuration-profiles/ios.ipa.local.properties" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/testcases/LoginTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/components/HamburgerMenuComponent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/components/WelcomeCarrouselComponent.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/org/fw/utils/Constants.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

@@ -26,7 +26,7 @@ public class LoginTest extends BaseTest {
     public void testPracticeLoginTestCase() {
         // Select Practice
         practiceLoginPage.submitPracticeForm(UserDataUtils.getUserData(Constants.PRACTICE));
-        assertTrue(loginPage.isSymplastIconDisplayed());
+        assertTrue(loginPage.isSymIconDisplayed());
         assertEquals(UserDataUtils.getUserData(Constants.PRACTICE), loginPage.getPracticeName());
         assertTrue(loginPage.isForgotPasswordDisplayed());
     }
@@ -53,10 +53,10 @@ public class LoginTest extends BaseTest {
         // Signout
         homePage.signOut();
         if(!MobileDriverManager.isReleaseVersion()) {
-            assertTrue(practiceLoginPage.isSymplastIconDisplayed());
+            assertTrue(practiceLoginPage.isSymIconDisplayed());
             assertTrue(practiceLoginPage.isProceedLoginButtonDisplayed());
         }else {
-            assertTrue(loginPage.isSymplastIconDisplayed());
+            assertTrue(loginPage.isSymIconDisplayed());
             assertEquals(UserDataUtils.getUserData(Constants.PRACTICE), loginPage.getPracticeName());
             assertTrue(loginPage.isForgotPasswordDisplayed());
         }
@@ -69,7 +69,7 @@ public class LoginTest extends BaseTest {
         loginPage.tapForgotPasswordButton();
         assertTrue(loginPage.getForgotPasswordComp().isComponentDisplayed());
         loginPage.getForgotPasswordComp().submitForgotPasswordForm(UserDataUtils.getUserData(Constants.USERNAME));
-        assertTrue(loginPage.isSymplastIconDisplayed());
+        assertTrue(loginPage.isSymIconDisplayed());
     }
 
 }

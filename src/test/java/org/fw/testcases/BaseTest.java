@@ -67,10 +67,10 @@ public class BaseTest {
         // Signout
         homePage.signOut();
         if (!MobileDriverManager.isReleaseVersion()) {
-            assertTrue(practiceLoginPage.isSymplastIconDisplayed());
+            assertTrue(practiceLoginPage.isSymIconDisplayed());
             assertTrue(practiceLoginPage.isProceedLoginButtonDisplayed());
         } else {
-            assertTrue(loginPage.isSymplastIconDisplayed());
+            assertTrue(loginPage.isSymIconDisplayed());
             assertEquals(UserDataUtils.getUserData(Constants.PRACTICE), loginPage.getPracticeName());
             assertTrue(loginPage.isForgotPasswordDisplayed());
         }

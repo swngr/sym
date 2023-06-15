@@ -45,7 +45,7 @@ public class LoginToAppTest extends BaseTest{
     @Test
     public void userCanSelectPractice() {
         practiceLoginPage.practiceSelection();
-        assertTrue(loginPage.isSymplastIconDisplayed());
+        assertTrue(loginPage.isSymIconDisplayed());
         assertEquals(UserDataUtils.getUserData(Constants.PRACTICE), loginPage.getPracticeName());
         assertTrue(loginPage.isForgotPasswordDisplayed());
     }
@@ -56,7 +56,7 @@ public class LoginToAppTest extends BaseTest{
         loginPage.submitLoginForm(UserDataUtils.getUserData(Constants.USERNAME), UserDataUtils.getUserData(Constants.PASSWORD));
         assertTrue(welcomeCarrouselComponent.isCarrouselTexDisplayed());
         userCanNavigateInNewsCarousel();
-        assertTrue(homePage.isSymplastLogoIconDisplayed());
+        assertTrue(homePage.isSymLogoIconDisplayed());
         homePage.tapOpenHamburgerMenu();
         hamburgerMenuComponent.tapSignOutButton();
 
@@ -68,7 +68,7 @@ public class LoginToAppTest extends BaseTest{
         loginPage.tapForgotPasswordButton();
         assertTrue(loginPage.getForgotPasswordComp().isComponentDisplayed());
         loginPage.getForgotPasswordComp().submitForgotPasswordForm(UserDataUtils.getUserData(Constants.USERNAME));
-        assertTrue(loginPage.isSymplastIconDisplayed());
+        assertTrue(loginPage.isSymIconDisplayed());
 
     }
 
@@ -79,7 +79,7 @@ public class LoginToAppTest extends BaseTest{
         userCanNavigateInNewsCarousel();
         homePage.tapOpenHamburgerMenu();
         hamburgerMenuComponent.tapSignOutButton();
-        assertTrue(practiceLoginPage.isSymplastIconDisplayed());
+        assertTrue(practiceLoginPage.isSymIconDisplayed());
         assertTrue(loginPage.isForgotPasswordDisplayed());
 
     }

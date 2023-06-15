@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class LoginPage extends BasePage {
 
     @iOSXCUITFindBy(accessibility = "image_1")
-    private WebElement symplastIcon;
+    private WebElement symIcon;
 
     @iOSXCUITFindBy(accessibility = "label_0")
     private WebElement practiceName;
@@ -38,8 +38,8 @@ public class LoginPage extends BasePage {
         return getText(practiceName, "Unable to get text from \"Practice Name\" field");
     }
 
-    public boolean isSymplastIconDisplayed(){
-        return isDisplayed(symplastIcon, "Unable to display the \"Symplast\" icon");
+    public boolean isSymIconDisplayed(){
+        return isDisplayed(symIcon, "Unable to display the \"Symplast\" icon");
     }
 
     public boolean isForgotPasswordDisplayed(){

@@ -167,7 +167,7 @@ public class SecureMessagingTest extends BaseTest {
             assertTrue("Didn't received the push notification in time: 30 seconds", timeBetweenMessageSentAndReceived<=30);
             pushNotificationComponent.tapPushNotificationComponent();
         }catch (AssertionError e){
-            homePage.goBackToSymplastApp();
+            homePage.goBackToSymApp();
             throw new AssertionError(e.getMessage());
         }finally {
             WaitUtils.sleep(getClass(), 10);
